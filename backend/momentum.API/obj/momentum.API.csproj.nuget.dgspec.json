@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amer Kalac\\VSCodeprojects\\momentum\\backend\\momentum.API\\momentum.API.csproj": {}
+    "C:\\Users\\AmerKalac\\VSCode Projects\\momentum\\momentum\\backend\\momentum.API\\momentum.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amer Kalac\\VSCodeprojects\\momentum\\backend\\momentum.API\\momentum.API.csproj": {
+    "C:\\Users\\AmerKalac\\VSCode Projects\\momentum\\momentum\\backend\\momentum.API\\momentum.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amer Kalac\\VSCodeprojects\\momentum\\backend\\momentum.API\\momentum.API.csproj",
+        "projectUniqueName": "C:\\Users\\AmerKalac\\VSCode Projects\\momentum\\momentum\\backend\\momentum.API\\momentum.API.csproj",
         "projectName": "momentum.API",
-        "projectPath": "C:\\Users\\Amer Kalac\\VSCodeprojects\\momentum\\backend\\momentum.API\\momentum.API.csproj",
-        "packagesPath": "C:\\Users\\Amer Kalac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amer Kalac\\VSCodeprojects\\momentum\\backend\\momentum.API\\obj\\",
+        "projectPath": "C:\\Users\\AmerKalac\\VSCode Projects\\momentum\\momentum\\backend\\momentum.API\\momentum.API.csproj",
+        "packagesPath": "C:\\Users\\AmerKalac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmerKalac\\VSCode Projects\\momentum\\momentum\\backend\\momentum.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Amer Kalac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\AmerKalac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
