@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import WeatherTest from '../components/Weathertest';
 
 const Dashboard = () => {
   return (
@@ -13,6 +14,8 @@ const Dashboard = () => {
       <nav>
         <Link to="/kanban">Your tasks</Link>
       </nav>
+
+      <WeatherTest />
     </div>
   );
 };
