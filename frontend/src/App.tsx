@@ -11,7 +11,7 @@ function App() {
   return (
   <>
    <div className="bg-blue-500 text-white p-4 text-center text-xl font-bold">
-   Tailwind v3 is working
+   Tailwind test
    </div>
 
    <AppRoutes />
