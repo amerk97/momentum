@@ -1,12 +1,22 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 // Simple Navbar component 
 
 const Navbar = () => {
+  const location = useLocation();
+
+  const pageTitles: { [key: string]: string } = {
+    "/": "Dashboard",
+    "/kanban": "Kanban",
+    "/login": "Login",
+  };
+
+  const currentPage = pageTitles[location.pathname] || "Dashboard";
+
   return (
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-lg font-bold">Momentum</div>
+        <div className="text-white text-lg font-bold">Momentum / {currentPage} </div>
         <ul className="flex space-x-4">
           <li>
             <Link to="/" className="text-white hover:text-gray-300">
